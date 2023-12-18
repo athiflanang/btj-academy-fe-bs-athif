@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>BTJ Academy</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="test.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+    
+<body class="bg-success bg-gradient">
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">BTJ Academy</a>         
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about-athif.html">About</a>
+                    </li>
+                </ul>
+        </nav>
+    </header>
+
+    <div class="container vh-100 vw-100 d-flex align-items-center">
+        <div class="container row border bg-light">
+            <div class="col-md-6">
+                <form action="" class="form d-flex flex-column align-items-center">
+                    <h2 class="text-center">Welcome to Our Landing Page</h2>
+                    <p class="text-center">Please login to access other features</p>
+
+                    <div class="form-group align-items-center w-50">
+                        <input type="text" name="username" id="username" class="form-control" placeholder="Enter your Username" required>
+                        <span id="errorname" class="error"></span>
+                    </div>
+
+                    <div class="form-group align-items-center w-50">
+                        <input type="password" name="password" id="password" class="form-control" placeholder="Enter your Password" required>
+                        <span id="errorpassword" class="error"></span>
+                        <span id="capsLockWarning" style="display: none; color: red;">Caps Lock is on!</span>
+                    </div>
+
+                    <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="showPasswordcheckbox">
+                        <label class="form-check-label" for="showPasswordcheckbox">Show Password</label>
+                    </div>
+
+                    <div class="d-grid gap-2 col-6 mx-auto">
+                        <button type="button" class="btn btn-secondary" id="submit" value="Sign In">Sign In</button>
+                    </div>
+                </form>
+            </div>
+
+            <div class="col-md-6 bg-white">
+                <div class="side">
+                    <img src="https://img.freepik.com/free-vector/video-blogger-computer-screen-advertising-new-phone-man-posting-vlog-smartphone-review-channel-flat-vector-illustration-technology-marketing-concept-banner-landing-web-page_74855-21080.jpg?w=1480&t=st=1700274281~exp=1700274881~hmac=7a3f1665e45429eccdcb8dd30c6d2f723c31a77e18365052e97041bb968226a2" class="img-fluid" alt="Responsive image">
+                    <p class="text-center">One step for man, One giant leap for mankind - Neil Armstrong </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer mt-5">
+        <div class="container">
+            <p>&copy; 2023 BTJ Academy</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="index-athif.js"></script>
+
+</body>
+</html>
